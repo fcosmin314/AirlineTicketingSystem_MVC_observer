@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="691.0" prefWidth="1051.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.view.TravelerView">
+   <children>
+      <AnchorPane layoutX="37.0" layoutY="14.0" prefHeight="510.0" prefWidth="977.0">
+          <VBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefWidth="555.0" spacing="10" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+              <Label fx:id="availableFlightsLabel" text="Available Flights" />
+      
+              <TableView fx:id="flightTableView" minHeight="200" prefHeight="400.0" prefWidth="578.0">
+                  <columns>
+                      <TableColumn fx:id="departureColumn" prefWidth="201.0" text="Departure Airport" />
+                      <TableColumn fx:id="destinationColumn" prefWidth="190.0" text="Destination Airport" />
+                      <TableColumn fx:id="flightNumber" prefWidth="118.0" text="Flight Number" />
+                      <TableColumn fx:id="departureTime" minWidth="0.0" prefWidth="107.0" text="Departure Time" />
+                      <TableColumn fx:id="arrivalTime" minWidth="0.0" prefWidth="129.0" text="Arrival Time" />
+                  <TableColumn fx:id="priceFlight" minWidth="0.0" prefWidth="111.0" text="Price" />
+                  <TableColumn fx:id="emptySeats" minWidth="0.0" prefWidth="99.0" text="Empty Seats" />
+                  </columns>
+              </TableView>
+      
+              <HBox alignment="CENTER" prefHeight="53.0" prefWidth="639.0" spacing="10">
+                  <Button fx:id="sortByDestinationButton" onAction="#onSortByDestinationClicked" text="Sort by Destination Airport" />
+                  <Button fx:id="sortByDepartureButton" onAction="#onSortByDepartureClicked" text="Sort by Departure Airport" />
+              </HBox>
+          </VBox>
+      </AnchorPane>
+      <TextField fx:id="searchFlightNumber" layoutX="109.0" layoutY="539.0" promptText="Flight Nuber" />
+      <Button fx:id="searchFlightNumButton" layoutX="270.0" layoutY="539.0" mnemonicParsing="false" onAction="#onSearchByFlightNumberClicked" text="Search" />
+      <TextField fx:id="searchByDeparture" layoutX="649.0" layoutY="584.0" prefHeight="25.0" prefWidth="272.0" promptText="Departure" />
+      <TextField fx:id="searchByDestination" layoutX="649.0" layoutY="641.0" prefHeight="25.0" prefWidth="272.0" promptText="Destination" />
+      <Button fx:id="searchBetweenAirportsButton" layoutX="943.0" layoutY="609.0" mnemonicParsing="false" onAction="#onSearchByDepartureDestination" text="Search" />
+      <Separator layoutX="610.0" layoutY="527.0" orientation="VERTICAL" prefHeight="162.0" prefWidth="5.0" />
+      <Separator layoutX="613.0" layoutY="523.0" prefHeight="0.0" prefWidth="435.0" />
+      <Label fx:id="viewFlightBetweenLabel" layoutX="698.0" layoutY="543.0" text="View flights between 2 airports" />
+   </children>
+</Pane>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FlightTable>
+  <flight flight_number="999">
+    <departure_airport>Aeroportul Internațional "Traian Vuia" Timişoara</departure_airport>
+    <destination_airport>Adolfo Suárez Madrid–Barajas Airport</destination_airport>
+    <departure_time>2023-04-11 10:25:17.0</departure_time>
+    <arrival_time>2023-04-11 12:25:17.0</arrival_time>
+    <price>325</price>
+    <number_of_seats>80</number_of_seats>
+  </flight>
+  <flight flight_number="001">
+    <departure_airport>Aeroportul Internațional "Traian Vuia" Timişoara</departure_airport>
+    <destination_airport>Aeroportul Internațional Avram Iancu Cluj-Napoca</destination_airport>
+    <departure_time>2023-04-11 11:25:02.0</departure_time>
+    <arrival_time>2023-04-11 13:25:17.0</arrival_time>
+    <price>21</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="003">
+    <departure_airport>Aeroportul Internațional "Traian Vuia" Timişoara</departure_airport>
+    <destination_airport>Aeroportul Internațional Iași</destination_airport>
+    <departure_time>2023-04-11 11:39:33.0</departure_time>
+    <arrival_time>2024-09-13 08:39:37.0</arrival_time>
+    <price>100</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="004">
+    <departure_airport>Aeroportul Internațional Avram Iancu Cluj-Napoca</departure_airport>
+    <destination_airport>Aeroportul Internațional "Traian Vuia" Timişoara</destination_airport>
+    <departure_time>2023-04-11 18:39:57.0</departure_time>
+    <arrival_time>2023-04-11 05:40:08.0</arrival_time>
+    <price>55</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="111">
+    <departure_airport>Aeroportul Internațional Avram Iancu Cluj-Napoca</departure_airport>
+    <destination_airport>Aeroportul Internațional "Traian Vuia" Timişoara</destination_airport>
+    <departure_time>2023-05-02 18:42:28.0</departure_time>
+    <arrival_time>2024-05-02 18:42:33.0</arrival_time>
+    <price>14</price>
+    <number_of_seats>21</number_of_seats>
+  </flight>
+  <flight flight_number="002">
+    <departure_airport>Aeroportul Internațional Avram Iancu Cluj-Napoca</departure_airport>
+    <destination_airport>Aeroportul Internațional Henri Coandă</destination_airport>
+    <departure_time>2023-04-11 18:25:34.0</departure_time>
+    <arrival_time>2023-04-12 01:25:45.0</arrival_time>
+    <price>33</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="013">
+    <departure_airport>Aeroportul Internațional Henri Coandă</departure_airport>
+    <destination_airport>Aeroportul Internațional "Traian Vuia" Timişoara</destination_airport>
+    <departure_time>2023-10-11 12:20:13.0</departure_time>
+    <arrival_time>2023-10-11 15:20:19.0</arrival_time>
+    <price>34</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="006">
+    <departure_airport>Aeroportul Internațional Henri Coandă</departure_airport>
+    <destination_airport>Aeroportul Internațional Iași</destination_airport>
+    <departure_time>2023-04-12 01:41:36.0</departure_time>
+    <arrival_time>2023-04-12 05:41:41.0</arrival_time>
+    <price>67</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="005">
+    <departure_airport>Aeroportul Internațional Iași</departure_airport>
+    <destination_airport>Aeroportul Internațional Avram Iancu Cluj-Napoca</destination_airport>
+    <departure_time>2023-04-11 11:41:10.0</departure_time>
+    <arrival_time>2023-04-11 16:41:13.0</arrival_time>
+    <price>10</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="012">
+    <departure_airport>Aeroportul Internațional Iași</departure_airport>
+    <destination_airport>Paris Charles de Gaulle Airport</destination_airport>
+    <departure_time>2023-09-11 12:19:54.0</departure_time>
+    <arrival_time>2023-09-11 19:20:09.0</arrival_time>
+    <price>345</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="015">
+    <departure_airport>Frankfurt Airport</departure_airport>
+    <destination_airport>Humberto Delgado Airport</destination_airport>
+    <departure_time>2023-11-11 13:20:32.0</departure_time>
+    <arrival_time>2023-11-11 14:20:38.0</arrival_time>
+    <price>42</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="016">
+    <departure_airport>Frankfurt Airport</departure_airport>
+    <destination_airport>Humberto Delgado Airport</destination_airport>
+    <departure_time>2024-04-28 05:08:09.0</departure_time>
+    <arrival_time>2024-04-29 07:08:13.0</arrival_time>
+    <price>23</price>
+    <number_of_seats>55</number_of_seats>
+  </flight>
+  <flight flight_number="014">
+    <departure_airport>Frankfurt Airport</departure_airport>
+    <destination_airport>Manises Airport</destination_airport>
+    <departure_time>2023-12-11 14:20:24.0</departure_time>
+    <arrival_time>2023-12-11 17:20:28.0</arrival_time>
+    <price>12</price>
+    <number_of_seats>0</number_of_seats>
+  </flight>
+  <flight flight_number="777">
+    <departure_airport>Paris Charles de Gaulle Airport</departure_airport>
+    <destination_airport>Aeroportul Internațional Iași</destination_airport>
+    <departure_time>2024-09-13 05:39:37.0</departure_time>
+    <arrival_time>2024-09-13 09:39:37.0</arrival_time>
+    <price>1000</price>
+    <number_of_seats>45</number_of_seats>
+  </flight>
+</FlightTable>
